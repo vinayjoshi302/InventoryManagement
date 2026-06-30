@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "InventoryHold.Domain/1.0.0": {
+        "dependencies": {
+          "InventoryHold.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "InventoryHold.Domain.dll": {}
+        }
+      },
+      "InventoryHold.Contracts/1.0.0": {
+        "runtime": {
+          "InventoryHold.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InventoryHold.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InventoryHold.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
